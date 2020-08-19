@@ -3,7 +3,7 @@ Code Sample with Rules Engine triggering Domain Events
 
 Contains the following elements :-
 
-"Maquina" - (Spanish for machine) contains a generic rules Engine, this dynamically processes soft coded boolean logical expressions that indirectly access business domains via reflection.
+"Maquina" - (Spanish for machine) contains a generic rules Engine, this dynamically processes soft coded boolean logical expressions held in a formalised DSL that indirectly access business domains via reflection.
 
 "Legatto" - (Italian for legacy) A hypothetical business domain containing an account based hierarchical document management system, this is held in memory only.
 
