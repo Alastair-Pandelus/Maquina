@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Legatto.CoreDomain\Legatto.CoreDomain.csproj" />
+    <ProjectReference Include="..\Maquina.BusinessDomain\Maquina.RulesEngineDomain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Definition\AccountRule.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+</Project>
